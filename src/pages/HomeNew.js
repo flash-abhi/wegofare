@@ -428,15 +428,15 @@ function HomeNew() {
         </div>
         <div className="aof-hero-content">
           <h1>
-            Your next trip starts with smarter fares at <span>{phone}</span>
+            Book Flights with Confidence at <span>{phone}</span>
           </h1>
           <p className="aof-hero-copy">
-            Find flexible flight options, simple booking guidance, and friendly support for every step of your journey.
+            Compare travel options, review clear fare details, and get friendly booking assistance for your next journey.
           </p>
           <div className="aof-hero-stats" aria-label="Travel booking highlights">
-            <span><strong>600+</strong> airlines</span>
-            <span><strong>Clear</strong> pricing</span>
-            <span><strong>Secure</strong> payments</span>
+            <span><strong>Wide</strong> airline options</span>
+            <span><strong>Clear</strong> fare details</span>
+            <span><strong>24/7</strong> travel support</span>
           </div>
 
           <div className="aof-service-tabs">
@@ -488,12 +488,12 @@ function HomeNew() {
           <div className="aof-form-panel">
             <div className="aof-form-panel-head">
               <div>
-                <span>Start here</span>
-                <h2>Find your next trip</h2>
+                <span>Plan your trip</span>
+                <h2>Search flights and fares</h2>
               </div>
               <a href={`tel:${dialPhone}`}>
                 <Phone size={16} />
-                Agent help
+                Call an agent
               </a>
             </div>
             <div className="aof-trip-type form-trip-type">
