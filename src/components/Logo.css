@@ -1,0 +1,77 @@
+.logo-container {
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  width: 150px;
+  height: 120px;
+  /* user-select: none; */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.logo-container:hover {
+  transform: translateY(-1px);
+}
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 8px;
+}
+.logo-img {
+  display: block;
+  object-fit: contain;
+  width: auto;
+}
+
+/* ===== Header Logo ===== */
+.header .logo-link .logo-img {
+  width: 200px !important;
+  height: 100% !important;
+  max-width: none !important;
+  object-fit: contain;
+}
+
+/* ===== Footer Logo ===== */
+.footer .logo-img {
+  height: 46px;
+}
+
+/* ===== Generic fallback sizes ===== */
+.logo-small .logo-img  { height: 36px; }
+.logo-medium .logo-img { height: 50px; }
+.logo-large .logo-img  { height: 72px; }
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+  .header .logo-link .logo-img {
+    width: 260px !important;
+    height: 82px !important;
+  }
+  .footer .logo-img {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .logo-link .logo-img {
+    width: 220px !important;
+    height: 100% !important;
+  }
+  .footer .logo-img {
+    height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .logo-link .logo-img {
+    width: 100px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 90% !important;
+  }
+  .footer .logo-img {
+    height: 44px;
+  }
+}

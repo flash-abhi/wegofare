@@ -1,0 +1,604 @@
+[
+  {
+    "timestamp": "2025-11-28T15:56:26.724Z",
+    "date": "2025-11-28",
+    "duration": "28.33s",
+    "summary": {
+      "siteHealth": 72,
+      "keywordsAnalyzed": 8,
+      "totalBacklinks": 4491,
+      "organicTraffic": 6888,
+      "contentIdeas": 5
+    },
+    "results": {
+      "siteAudit": {
+        "score": 72,
+        "issues": [
+          {
+            "type": "success",
+            "count": 15,
+            "message": "Meta tags properly configured"
+          },
+          {
+            "type": "success",
+            "count": 8,
+            "message": "Mobile-responsive design detected"
+          },
+          {
+            "type": "warning",
+            "count": 3,
+            "message": "Some images missing alt text"
+          },
+          {
+            "type": "warning",
+            "count": 2,
+            "message": "Page load time could be improved"
+          },
+          {
+            "type": "error",
+            "count": 1,
+            "message": "SSL certificate needs renewal attention"
+          }
+        ]
+      },
+      "keywords": [
+        {
+          "keyword": "cheap flights",
+          "volume": 50000,
+          "difficulty": 60,
+          "cpc": 1.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "discount flights",
+            "budget airfare",
+            "low cost plane tickets",
+            "inexpensive flights",
+            "affordable air travel"
+          ]
+        },
+        {
+          "keyword": "flight deals",
+          "volume": 15000,
+          "difficulty": 60,
+          "cpc": 2.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "cheap flights",
+            "flight offers",
+            "discounted flights",
+            "flight discounts",
+            "airfare deals"
+          ]
+        },
+        {
+          "keyword": "discount airfare",
+          "volume": 5000,
+          "difficulty": 60,
+          "cpc": 1.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "cheap airfare",
+            "low cost flights",
+            "discount flights",
+            "airline deals",
+            "budget air travel"
+          ]
+        },
+        {
+          "keyword": "vacation packages",
+          "volume": 50000,
+          "difficulty": 60,
+          "cpc": 2.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "all inclusive vacation packages",
+            "cheap vacation packages",
+            "family vacation packages",
+            "last minute vacation packages",
+            "beach vacation packages"
+          ]
+        },
+        {
+          "keyword": "hotel bookings",
+          "volume": 1000000,
+          "difficulty": 70,
+          "cpc": 1.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "cheap hotel bookings",
+            "online hotel bookings",
+            "last minute hotel bookings",
+            "hotel bookings app",
+            "best hotel bookings"
+          ]
+        },
+        {
+          "keyword": "travel deals",
+          "volume": 25000,
+          "difficulty": 70,
+          "cpc": 1.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "cheap travel deals",
+            "last minute travel deals",
+            "discount travel packages",
+            "all inclusive vacation deals",
+            "best travel deals"
+          ]
+        },
+        {
+          "keyword": "last minute flights",
+          "volume": 20000,
+          "difficulty": 70,
+          "cpc": 2.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "cheap last minute flights",
+            "last minute flight deals",
+            "last minute airfare",
+            "last minute airline tickets",
+            "last minute flight discounts"
+          ]
+        },
+        {
+          "keyword": "cruise deals",
+          "volume": 5000,
+          "difficulty": 70,
+          "cpc": 3.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "best cruise deals",
+            "cheap cruise deals",
+            "last minute cruise deals",
+            "discount cruise deals",
+            "all inclusive cruise deals"
+          ]
+        }
+      ],
+      "backlinks": {
+        "total": 4491,
+        "referringDomains": 322,
+        "domainAuthority": 74,
+        "recentBacklinks": [
+          {
+            "domain": "traveldeals.com",
+            "authority": 65,
+            "type": "Follow",
+            "anchor": "cheap flights"
+          },
+          {
+            "domain": "flightblog.net",
+            "authority": 48,
+            "type": "Follow",
+            "anchor": "flight deals"
+          },
+          {
+            "domain": "cheapflights.org",
+            "authority": 52,
+            "type": "NoFollow",
+            "anchor": "travel"
+          },
+          {
+            "domain": "traveltips.io",
+            "authority": 38,
+            "type": "Follow",
+            "anchor": "vacation packages"
+          }
+        ]
+      },
+      "analytics": {
+        "organicTraffic": 6888,
+        "trafficChange": "36.2",
+        "keywordRankings": 155,
+        "newRankings": 21,
+        "clickRate": "5.8",
+        "clickRateChange": "-0.5",
+        "avgPosition": "7.7",
+        "positionChange": "-1.1"
+      },
+      "contentSuggestions": [
+        {
+          "title": "Top 10 US Destinations for Summer 2022",
+          "keywords": [
+            "US travel destinations",
+            "summer 2022 travel",
+            "vacation ideas"
+          ],
+          "targetAudience": "Travelers planning their summer vacations",
+          "estimatedTraffic": "High"
+        },
+        {
+          "title": "Best Ways to Save Money on Last-Minute Flights",
+          "keywords": [
+            "last-minute flights",
+            "flight deals",
+            "travel savings tips"
+          ],
+          "targetAudience": "Budget-conscious travelers",
+          "estimatedTraffic": "Medium"
+        },
+        {
+          "title": "Ultimate Guide to Finding Cheap Hotel Deals",
+          "keywords": [
+            "cheap hotel deals",
+            "hotel discounts",
+            "accommodation savings"
+          ],
+          "targetAudience": "Travelers searching for affordable accommodations",
+          "estimatedTraffic": "High"
+        },
+        {
+          "title": "How to Plan a Budget-Friendly Weekend Getaway",
+          "keywords": [
+            "budget-friendly travel",
+            "weekend getaway ideas",
+            "travel planning tips"
+          ],
+          "targetAudience": "Weekend travelers looking for cost-effective options",
+          "estimatedTraffic": "Medium"
+        },
+        {
+          "title": "The Rise of Remote Work and Travel: Tips for Digital Nomads",
+          "keywords": [
+            "remote work travel",
+            "digital nomad lifestyle",
+            "workation tips"
+          ],
+          "targetAudience": "Remote workers and digital nomads",
+          "estimatedTraffic": "Medium"
+        }
+      ],
+      "metaTags": {
+        "title": "Best Travel Deals - Save on Flights, Hotels & Vacations",
+        "meta_description": "Find exclusive travel deals on flights, hotels, vacation packages & more. Book now and save on your next adventure with our affordable travel options.",
+        "keywords": [
+          "travel deals",
+          "cheap flights",
+          "discount hotels",
+          "last minute deals",
+          "budget vacations",
+          "holiday packages",
+          "all-inclusive resorts",
+          "weekend getaways",
+          "travel discounts",
+          "online bookings"
+        ],
+        "open_graph_title": "Explore the Best Travel Deals and Discounts",
+        "open_graph_description": "Discover unbeatable travel deals on flights, hotels, vacation packages & more. Book now and save on your next journey with our budget-friendly travel options."
+      },
+      "competitors": [
+        {
+          "domain": "kayak.com",
+          "estimatedTraffic": 1630390,
+          "domainAuthority": 73,
+          "topKeywords": 58839
+        },
+        {
+          "domain": "expedia.com",
+          "estimatedTraffic": 1514119,
+          "domainAuthority": 83,
+          "topKeywords": 21435
+        },
+        {
+          "domain": "priceline.com",
+          "estimatedTraffic": 2090796,
+          "domainAuthority": 71,
+          "topKeywords": 46584
+        },
+        {
+          "domain": "cheapflights.com",
+          "estimatedTraffic": 1782350,
+          "domainAuthority": 72,
+          "topKeywords": 43902
+        },
+        {
+          "domain": "skyscanner.com",
+          "estimatedTraffic": 4903070,
+          "domainAuthority": 68,
+          "topKeywords": 12941
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-11-29T02:45:07.142Z",
+    "date": "2025-11-29",
+    "duration": "28.57s",
+    "summary": {
+      "siteHealth": 72,
+      "keywordsAnalyzed": 8,
+      "totalBacklinks": 746,
+      "organicTraffic": 18446,
+      "contentIdeas": 5
+    },
+    "results": {
+      "siteAudit": {
+        "score": 72,
+        "issues": [
+          {
+            "type": "success",
+            "count": 15,
+            "message": "Meta tags properly configured"
+          },
+          {
+            "type": "success",
+            "count": 8,
+            "message": "Mobile-responsive design detected"
+          },
+          {
+            "type": "warning",
+            "count": 3,
+            "message": "Some images missing alt text"
+          },
+          {
+            "type": "warning",
+            "count": 2,
+            "message": "Page load time could be improved"
+          },
+          {
+            "type": "error",
+            "count": 1,
+            "message": "SSL certificate needs renewal attention"
+          }
+        ]
+      },
+      "keywords": [
+        {
+          "keyword": "cheap flights",
+          "volume": 50000,
+          "difficulty": 65,
+          "cpc": 1.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "budget flights",
+            "inexpensive airfare",
+            "discount flights",
+            "low cost tickets",
+            "affordable air travel"
+          ]
+        },
+        {
+          "keyword": "flight deals",
+          "volume": 6000,
+          "difficulty": 60,
+          "cpc": 2.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "cheap flights",
+            "flight discounts",
+            "best flight deals",
+            "last minute flights",
+            "flight offers"
+          ]
+        },
+        {
+          "keyword": "discount airfare",
+          "volume": 5000,
+          "difficulty": 50,
+          "cpc": 1.5,
+          "trend": "down",
+          "relatedKeywords": [
+            "cheap flights",
+            "airline deals",
+            "low cost airfare",
+            "discounted plane tickets",
+            "budget airline fares"
+          ]
+        },
+        {
+          "keyword": "vacation packages",
+          "volume": 50000,
+          "difficulty": 60,
+          "cpc": 2.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "all inclusive vacation packages",
+            "cheap vacation packages",
+            "last minute vacation packages",
+            "family vacation packages",
+            "best vacation packages"
+          ]
+        },
+        {
+          "keyword": "hotel bookings",
+          "volume": 80000,
+          "difficulty": 70,
+          "cpc": 2.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "hotel reservations",
+            "book hotel online",
+            "cheap hotel bookings",
+            "last minute hotel bookings",
+            "hotel booking websites"
+          ]
+        },
+        {
+          "keyword": "travel deals",
+          "volume": 10000,
+          "difficulty": 50,
+          "cpc": 1.5,
+          "trend": "up",
+          "relatedKeywords": [
+            "cheap travel deals",
+            "best travel deals",
+            "last minute travel deals",
+            "discount travel deals",
+            "all-inclusive travel deals"
+          ]
+        },
+        {
+          "keyword": "last minute flights",
+          "volume": 50000,
+          "difficulty": 70,
+          "cpc": 3.5,
+          "trend": "down",
+          "relatedKeywords": [
+            "cheap last minute flights",
+            "last minute flight deals",
+            "last minute airfare",
+            "last minute flight offers",
+            "discount last minute flights"
+          ]
+        },
+        {
+          "keyword": "cruise deals",
+          "volume": 5000,
+          "difficulty": 70,
+          "cpc": 3.5,
+          "trend": "down",
+          "relatedKeywords": [
+            "cheap cruise deals",
+            "last minute cruise deals",
+            "best cruise deals",
+            "discounted cruise packages",
+            "luxury cruise deals"
+          ]
+        }
+      ],
+      "backlinks": {
+        "total": 746,
+        "referringDomains": 77,
+        "domainAuthority": 68,
+        "recentBacklinks": [
+          {
+            "domain": "traveldeals.com",
+            "authority": 65,
+            "type": "Follow",
+            "anchor": "cheap flights"
+          },
+          {
+            "domain": "flightblog.net",
+            "authority": 48,
+            "type": "Follow",
+            "anchor": "flight deals"
+          },
+          {
+            "domain": "cheapflights.org",
+            "authority": 52,
+            "type": "NoFollow",
+            "anchor": "travel"
+          },
+          {
+            "domain": "traveltips.io",
+            "authority": 38,
+            "type": "Follow",
+            "anchor": "vacation packages"
+          }
+        ]
+      },
+      "analytics": {
+        "organicTraffic": 18446,
+        "trafficChange": "-9.9",
+        "keywordRankings": 435,
+        "newRankings": 25,
+        "clickRate": "6.9",
+        "clickRateChange": "-0.2",
+        "avgPosition": "8.7",
+        "positionChange": "0.2"
+      },
+      "contentSuggestions": [
+        {
+          "title": "Top 10 Affordable Spring Break Destinations in 2021",
+          "keywords": [
+            "affordable spring break destinations",
+            "spring break 2021",
+            "budget travel"
+          ],
+          "targetAudience": "College students and budget-conscious travelers",
+          "estimatedTraffic": "Medium"
+        },
+        {
+          "title": "Ultimate Guide to Booking Last-Minute Flights for Less",
+          "keywords": [
+            "last-minute flights",
+            "cheap flights",
+            "flight deals"
+          ],
+          "targetAudience": "Spontaneous travelers and deal hunters",
+          "estimatedTraffic": "High"
+        },
+        {
+          "title": "Safe and Secluded: Best Remote Vacation Spots for Social Distancing",
+          "keywords": [
+            "remote vacation spots",
+            "social distancing travel",
+            "secluded destinations"
+          ],
+          "targetAudience": "Travelers prioritizing safety and privacy",
+          "estimatedTraffic": "High"
+        },
+        {
+          "title": "How to Score the Best Hotel Deals for Summer 2021",
+          "keywords": [
+            "hotel deals",
+            "summer travel 2021",
+            "discounted hotels"
+          ],
+          "targetAudience": "Vacation planners and budget travelers",
+          "estimatedTraffic": "Medium"
+        },
+        {
+          "title": "Exploring Nature: Eco-Friendly Travel Tips for the Conscious Traveler",
+          "keywords": [
+            "eco-friendly travel",
+            "sustainable tourism",
+            "green travel tips"
+          ],
+          "targetAudience": "Environmentally conscious travelers",
+          "estimatedTraffic": "Low"
+        }
+      ],
+      "metaTags": {
+        "page_title": "Best Travel Deals: Save Big on Flights, Hotels & Vacations",
+        "meta_description": "Get the best travel deals on flights, hotels, cruises, and vacation packages. Book now and save on your next adventure. Find discounts on top destinations worldwide.",
+        "keywords": [
+          "travel deals",
+          "flight discounts",
+          "hotel deals",
+          "vacation packages",
+          "cheap flights",
+          "discount hotels",
+          "last minute deals",
+          "cruise discounts",
+          "travel offers",
+          "budget vacations"
+        ],
+        "open_graph_title": "Unlock Huge Savings on Travel Deals with Us",
+        "open_graph_description": "Discover amazing discounts on flights, hotels, cruises, and vacation packages. Book now and save big on your next adventure with our exclusive travel deals."
+      },
+      "competitors": [
+        {
+          "domain": "kayak.com",
+          "estimatedTraffic": 5908603,
+          "domainAuthority": 73,
+          "topKeywords": 16293
+        },
+        {
+          "domain": "expedia.com",
+          "estimatedTraffic": 4999612,
+          "domainAuthority": 71,
+          "topKeywords": 38040
+        },
+        {
+          "domain": "priceline.com",
+          "estimatedTraffic": 4199466,
+          "domainAuthority": 73,
+          "topKeywords": 15335
+        },
+        {
+          "domain": "cheapflights.com",
+          "estimatedTraffic": 5111854,
+          "domainAuthority": 96,
+          "topKeywords": 41556
+        },
+        {
+          "domain": "skyscanner.com",
+          "estimatedTraffic": 5801736,
+          "domainAuthority": 73,
+          "topKeywords": 40236
+        }
+      ]
+    }
+  }
+]

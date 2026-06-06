@@ -1,0 +1,75 @@
+.airline-support-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(8, 31, 49, 0.96) 0, rgba(14, 49, 73, 0.86) 260px, #f4fbfd 260px, #f4fbfd 100%);
+  padding: 42px 24px 72px;
+}
+
+.support-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.support-card {
+  max-width: 920px;
+  padding: 34px;
+  border: 1px solid rgba(18, 109, 159, 0.12);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 24px 60px rgba(14, 49, 73, 0.14);
+}
+
+.support-card h1 {
+  margin-top: 0;
+  color: #0e3149;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.08;
+}
+
+.support-card h2 {
+  color: #0e3149;
+}
+
+.support-card p,
+.support-card li {
+  color: #475569;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.support-card ul {
+  display: grid;
+  gap: 8px;
+  padding-left: 20px;
+}
+
+.support-card a[href^="tel"] {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  background: #ef6333 !important;
+  color: #ffffff !important;
+  padding: 14px 22px !important;
+  border-radius: 12px !important;
+  text-decoration: none !important;
+  font-weight: 800;
+  box-shadow: 0 14px 28px rgba(239, 99, 51, 0.24);
+  transition: transform 0.28s ease, background 0.28s ease, box-shadow 0.28s ease;
+}
+
+.support-card a[href^="tel"]:hover {
+  background: #0e6a9c !important;
+  transform: translateY(-3px);
+  box-shadow: 0 18px 34px rgba(14, 106, 156, 0.24);
+}
+
+@media (max-width: 700px) {
+  .airline-support-page {
+    padding: 24px 14px 52px;
+  }
+
+  .support-card {
+    padding: 22px 16px;
+    border-radius: 14px;
+  }
+}

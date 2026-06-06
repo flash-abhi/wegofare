@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  flight_api:
+    image: node:18-alpine
+    container_name: flight_api
+    working_dir: /app
+    volumes:
+      - /var/www/flight/backend:/app
+    command: sh -c "npm ci --no-audit --no-fund && npm run start"
+    environment:
+      - VIRTUAL_HOST=api.wegofare.com
+      - LETSENCRYPT_HOST=api.wegofare.com
+      - VIRTUAL_PORT=5001
+      - MONGODB_URI=mongodb://mongo:27017/flight-booking
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - farebulkseo_default
+      - videomaker_videomaker
+
+networks:
+  farebulkseo_default:
+    external: true
+  videomaker_videomaker:
+    external: true

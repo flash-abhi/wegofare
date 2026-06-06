@@ -1,0 +1,60 @@
+{
+  "name": "WegoFare",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@duffel/api": "^4.25.0",
+    "amadeus": "^10.1.0",
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.2",
+    "geoip-lite": "^1.4.10",
+    "googleapis": "^166.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.294.0",
+    "mongoose": "^8.23.1",
+    "multer": "^2.1.1",
+    "nodemailer": "^7.0.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-google-recaptcha-v3": "^1.11.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "react-scripts start",
+    "start:frontend": "react-scripts start",
+    "build": "react-scripts build",
+    "hostinger:build": "npm run build",
+    "postinstall": "npm run build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "proxy": "http://localhost:5001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

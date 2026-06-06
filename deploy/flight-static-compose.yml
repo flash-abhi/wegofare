@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  flight_static:
+    image: nginx:alpine
+    container_name: flight_static
+    volumes:
+      - /var/www/flight/build:/usr/share/nginx/html:ro
+      - /var/www/flight/deploy/flight-static.conf:/etc/nginx/conf.d/default.conf:ro
+    environment:
+      - VIRTUAL_HOST=wegofare.com
+      - LETSENCRYPT_HOST=wegofare.com
+      - VIRTUAL_PORT=80
+    restart: unless-stopped
+    labels:
+      - "com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy=true"

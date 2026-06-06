@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Send API calls to the Hostinger Node.js app.
+# If Hostinger assigns a different internal port, update 5000 to that port.
+RewriteCond %{REQUEST_URI} ^/api
+RewriteRule ^(.*)$ http://127.0.0.1:5000/$1 [P,L]
+
+# Let React handle client-side routes.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]

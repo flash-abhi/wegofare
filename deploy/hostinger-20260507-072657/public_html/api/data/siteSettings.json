@@ -1,0 +1,31 @@
+{
+  "siteName": "Sky Fare",
+  "tagline": "Lock Your Fare. Unlock Your Journey.",
+  "logoUrl": "/logo.png",
+  "faviconUrl": "/favicon.ico",
+  "tfn": "+1-888-859-0441",
+  "email": "info@skytravelfare.com",
+  "workingHours": "Mon-Sun 24/7",
+  "billingAddress": {
+    "company": "Sky Fare",
+    "street": "1309 Coffeen Ave STE 1200",
+    "city": "Sheridan",
+    "state": "WY",
+    "zip": "82801",
+    "country": "USA"
+  },
+  "copyrightText": "© 2006-{year} Sky Fare. All rights reserved.",
+  "socialLinks": {
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": ""
+  },
+  "colors": {
+    "headerBg": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "headerText": "#ffffff",
+    "footerBg": "#eaecff",
+    "footerText": "#2a2b2c"
+  },
+  "siteUrl": "https://skytravelfare.com"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "WegoFare",
+  "version": "1.0.0",
+  "description": "Backend API for flight booking website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seedData.js",
+    "backlink-agent": "node backlink-agent.js",
+    "backlink-now": "node backlink-agent.js now",
+    "backlink-report": "node backlink-agent.js report",
+    "backlink-logs": "node backlink-agent.js logs",
+    "real-backlinks": "node real-backlink-agent.js start",
+    "real-backlinks-once": "node real-backlink-agent.js once",
+    "real-backlinks-status": "node real-backlink-agent.js status",
+    "real-backlinks-priority": "node real-backlink-agent.js priority"
+  },
+  "keywords": [
+    "flight",
+    "booking",
+    "travel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@duffel/api": "^4.21.0",
+    "amadeus": "^10.1.0",
+    "axios": "^1.13.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "express-validator": "^7.0.1",
+    "geoip-lite": "^1.4.10",
+    "googleapis": "^166.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.11",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

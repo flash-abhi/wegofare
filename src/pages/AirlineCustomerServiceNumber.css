@@ -1,0 +1,746 @@
+/* Airline Customer Service Number Page - Premium SEO Landing Page */
+
+.airline-service-page {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1e293b;
+  line-height: 1.7;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.92) 0%, rgba(30, 64, 175, 0.85) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 10px 24px;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 36px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: white;
+  padding: 20px 48px;
+  border-radius: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 30px rgba(14, 165, 233, 0.5);
+  transition: all 0.3s ease;
+  animation: pulse-blue 2s infinite;
+}
+
+.hero-cta:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 40px rgba(14, 165, 233, 0.6);
+}
+
+@keyframes pulse-blue {
+  0%, 100% { box-shadow: 0 8px 30px rgba(14, 165, 233, 0.5); }
+  50% { box-shadow: 0 8px 50px rgba(14, 165, 233, 0.7); }
+}
+
+.hero-features {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.hero-features .feature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.hero-features .feature svg {
+  color: #0ea5e9;
+}
+
+/* Trust Banner */
+.trust-banner {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  padding: 40px 0;
+}
+
+.trust-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.stat {
+  text-align: center;
+  color: white;
+}
+
+.stat-number {
+  display: block;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.stat-label {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Main Content */
+.main-content {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.content-section {
+  margin-bottom: 80px;
+}
+
+.content-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.section-intro {
+  font-size: 18px;
+  color: #64748b;
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+/* Intro Section */
+.intro-section {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 60px;
+  align-items: center;
+  background: white;
+  border-radius: 24px;
+  padding: 60px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.intro-section p {
+  font-size: 17px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.section-image img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cta-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 2px solid #3b82f6;
+  border-radius: 16px;
+  padding: 24px 32px;
+  margin-top: 32px;
+}
+
+.cta-content h3 {
+  font-size: 20px;
+  color: #1e40af;
+  margin-bottom: 4px;
+}
+
+.cta-content p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(14, 165, 233, 0.4);
+}
+
+/* Services Section */
+.services-section {
+  text-align: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 28px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border-color: #3b82f6;
+  box-shadow: 0 12px 40px rgba(59, 130, 246, 0.15);
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #3b82f6;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* Airlines Section */
+.airlines-section {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 60px;
+  align-items: center;
+  background: white;
+  border-radius: 24px;
+  padding: 60px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.airlines-image img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.airlines-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.airline-tag {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px 16px;
+  transition: all 0.3s ease;
+}
+
+.airline-tag:hover {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.airline-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.airline-tag span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.disclaimer-small {
+  font-size: 13px;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* Steps Section */
+.steps-section {
+  text-align: center;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.step-card {
+  position: relative;
+  background: white;
+  border-radius: 24px;
+  padding: 48px 32px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.step-number {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.step-icon {
+  color: #3b82f6;
+  margin-bottom: 20px;
+}
+
+.step-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.step-card p {
+  font-size: 15px;
+  color: #64748b;
+}
+
+/* Benefits Section */
+.benefits-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.benefit-item {
+  display: flex;
+  gap: 20px;
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-icon {
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.benefit-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.benefit-text p {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.benefits-image {
+  position: relative;
+}
+
+.benefits-image img {
+  width: 100%;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.image-cta {
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.floating-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 30px rgba(14, 165, 233, 0.5);
+  transition: all 0.3s ease;
+}
+
+.floating-cta:hover {
+  transform: scale(1.05);
+}
+
+/* FAQ Section */
+.faq-section {
+  background: white;
+  border-radius: 24px;
+  padding: 60px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.faq-item {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 28px;
+  border-left: 4px solid #3b82f6;
+}
+
+.faq-item h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.faq-item p {
+  font-size: 15px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Searches Section */
+.searches-section {
+  text-align: center;
+}
+
+.search-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.search-tag {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #64748b;
+  transition: all 0.3s ease;
+}
+
+.search-tag:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+  background: #eff6ff;
+}
+
+/* Disclaimer Section */
+.disclaimer-box {
+  background: #fffbeb;
+  border: 2px solid #fcd34d;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.disclaimer-box h3 {
+  font-size: 18px;
+  color: #92400e;
+  margin-bottom: 16px;
+}
+
+.disclaimer-box p {
+  font-size: 15px;
+  color: #78350f;
+  margin-bottom: 12px;
+}
+
+.disclaimer-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* Final CTA Section */
+.final-cta-section {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
+  padding: 100px 24px;
+  text-align: center;
+}
+
+.final-cta-content h2 {
+  font-size: 42px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.final-cta-content p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.final-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: white;
+  padding: 24px 56px;
+  border-radius: 60px;
+  text-decoration: none;
+  box-shadow: 0 10px 40px rgba(14, 165, 233, 0.5);
+  transition: all 0.3s ease;
+}
+
+.final-cta-button:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 16px 50px rgba(14, 165, 233, 0.6);
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.cta-label {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.cta-number {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.final-features {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.final-features span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .intro-section,
+  .airlines-section,
+  .benefits-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .airlines-section {
+    direction: ltr;
+  }
+
+  .airlines-image {
+    order: -1;
+  }
+
+  .services-grid,
+  .steps-grid,
+  .faq-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-cta {
+    padding: 16px 32px;
+    font-size: 18px;
+  }
+
+  .hero-features {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .trust-stats {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .services-grid,
+  .steps-grid,
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-section,
+  .airlines-section,
+  .faq-section {
+    padding: 32px 24px;
+  }
+
+  .cta-box {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .airlines-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .final-cta-content h2 {
+    font-size: 28px;
+  }
+
+  .final-cta-button {
+    padding: 20px 40px;
+  }
+
+  .cta-number {
+    font-size: 22px;
+  }
+
+  .content-section h2 {
+    font-size: 28px;
+  }
+}

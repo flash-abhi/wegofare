@@ -1,0 +1,268 @@
+.vacation-search-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
+  padding: 20px;
+}
+
+.search-summary {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-button {
+  background: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: background 0.2s;
+}
+
+.back-button:hover {
+  background: #e0e0e0;
+}
+
+.summary-details h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.summary-details p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.results-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.loading-state,
+.error-state,
+.no-results {
+  background: white;
+  border-radius: 12px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #0ea5e9;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-state h3 {
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.retry-button {
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 15px;
+  transition: background 0.2s;
+}
+
+.retry-button:hover {
+  background: #5568d3;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.package-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.package-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.package-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.package-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+  flex: 1;
+}
+
+.package-price {
+  text-align: right;
+}
+
+.package-price .price {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0ea5e9;
+}
+
+.package-price .price-label {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.package-details {
+  margin-bottom: 20px;
+}
+
+.detail-section {
+  margin-bottom: 20px;
+}
+
+.detail-section:last-child {
+  margin-bottom: 0;
+}
+
+.detail-section h4 {
+  margin: 0 0 10px 0;
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flight-info,
+.hotel-info {
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.airport {
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+}
+
+.arrow {
+  color: #0ea5e9;
+}
+
+.time-info,
+.airline {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.hotel-name {
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 6px 0;
+  font-size: 15px;
+}
+
+.rating {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.location,
+.room-type {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list li {
+  padding: 6px 0;
+  font-size: 13px;
+  color: #666;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.features-list li:last-child {
+  border-bottom: none;
+}
+
+.features-list li:before {
+  content: '✓ ';
+  color: #4caf50;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.book-button {
+  width: 100%;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.book-button:hover {
+  background: #5568d3;
+}
+
+@media (max-width: 768px) {
+  .packages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .package-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .package-price {
+    text-align: left;
+  }
+}

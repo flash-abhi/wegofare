@@ -1,0 +1,31 @@
+{
+  "siteName": "WegoFare",
+  "tagline": "Lock Your Fare. Unlock Your Journey.",
+  "logoUrl": "/logo.png",
+  "faviconUrl": "/favicon.ico",
+  "tfn": "+1-800-889-9279",
+  "email": "info@wegofare.com",
+  "workingHours": "Mon-Sun 24/7",
+  "billingAddress": {
+    "company": "WegoFare",
+    "street": "447 Broadway",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10013",
+    "country": "USA"
+  },
+  "copyrightText": "© 2006-{year} WegoFare. All rights reserved.",
+  "socialLinks": {
+    "facebook": "",
+    "twitter": "",
+    "instagram": "",
+    "linkedin": ""
+  },
+  "colors": {
+    "headerBg": "linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)",
+    "headerText": "#ffffff",
+    "footerBg": "#eaecff",
+    "footerText": "#2a2b2c"
+  },
+  "siteUrl": "https://wegofare.com"
+}

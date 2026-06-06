@@ -1,0 +1,32 @@
+{
+  "name": "seo-automation-agent",
+  "version": "1.0.0",
+  "description": "Automated SEO agent for daily optimization tasks",
+  "main": "seo-agent.js",
+  "scripts": {
+    "start": "node seo-agent.js",
+    "run-now": "node seo-agent.js --run-now",
+    "report": "node seo-agent.js --report 7",
+    "logs": "node seo-agent.js --logs 100",
+    "daemon": "pm2 start seo-agent.js --name seo-agent",
+    "stop": "pm2 stop seo-agent",
+    "restart": "pm2 restart seo-agent",
+    "status": "pm2 status seo-agent"
+  },
+  "keywords": [
+    "seo",
+    "automation",
+    "optimization",
+    "analytics"
+  ],
+  "author": "Fly Travel Deals",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "pm2": "^5.3.0"
+  }
+}

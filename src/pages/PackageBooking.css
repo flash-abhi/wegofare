@@ -1,0 +1,253 @@
+.package-booking-page {
+  min-height: 100vh;
+  background: #f3f3f4;
+  padding: 24px 0 56px;
+  color: #1f2530;
+}
+
+.package-booking-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 16px;
+}
+
+.package-booking-form,
+.package-booking-summary,
+.booking-success-card {
+  background: #fff;
+  border: 1px solid #e4e8ef;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(16, 24, 40, 0.08);
+}
+
+.package-booking-form {
+  padding: 20px;
+}
+
+.package-booking-form h1 {
+  margin: 0 0 14px;
+  font-size: 32px;
+}
+
+.package-booking-form section {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.package-booking-form h2 {
+  margin: 0 0 10px;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grid.two {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.package-booking-form input:not([type="checkbox"]) {
+  width: 100%;
+  border: 1px solid #d6dde8;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.package-booking-form input:not([type="checkbox"]):focus {
+  outline: none;
+  border-color: #ef6333;
+  box-shadow: 0 0 0 3px rgba(239, 99, 51, 0.12);
+}
+
+.icon-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d6dde8;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.icon-input:focus-within {
+  border-color: #ef6333;
+  box-shadow: 0 0 0 3px rgba(239, 99, 51, 0.12);
+}
+
+.icon-input input {
+  border: none;
+  box-shadow: none;
+  padding-left: 0;
+}
+
+.icon-input svg {
+  color: #ef6333;
+}
+
+.traveller-row {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr) minmax(0, 1fr);
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.traveller-row span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4f5d70;
+}
+
+.agree {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0 14px;
+  color: #4f5d70;
+}
+
+.agree input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-top: 0;
+  flex-shrink: 0;
+  accent-color: #ef6333;
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: auto;
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.submit-booking-btn,
+.booking-success-card button {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: #ef6333;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.submit-booking-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.package-booking-summary {
+  height: fit-content;
+  position: sticky;
+  top: 12px;
+  padding: 18px;
+}
+
+.package-booking-summary h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+
+.package-booking-summary p {
+  margin: 0 0 12px;
+  color: #5b677c;
+}
+
+.summary-item {
+  border-bottom: 1px solid #e5ebf2;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: #4f5d70;
+}
+
+.summary-item svg {
+  color: #ef6333;
+}
+
+.total-box {
+  margin-top: 12px;
+  border-radius: 12px;
+  background: #f7fafd;
+  border: 1px solid #dbe3ee;
+  padding: 12px;
+}
+
+.total-box span {
+  color: #5b677c;
+  font-size: 13px;
+}
+
+.total-box strong {
+  display: block;
+  margin-top: 6px;
+  font-size: 32px;
+  color: #ef6333;
+}
+
+.booking-success-card {
+  max-width: 620px;
+  margin: 40px auto 0;
+  padding: 24px;
+  text-align: center;
+}
+
+.booking-success-card svg {
+  color: #20b8e4;
+}
+
+.booking-success-card h1 {
+  margin: 12px 0 8px;
+}
+
+.confirmation-lines {
+  margin: 18px 0;
+  border: 1px solid #e0e6ef;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.confirmation-lines div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  border-bottom: 1px solid #e8edf4;
+}
+
+.confirmation-lines div:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 1000px) {
+  .package-booking-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .package-booking-summary {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .package-booking-wrap {
+    padding: 0 16px;
+  }
+
+  .grid.two {
+    grid-template-columns: 1fr;
+  }
+
+  .traveller-row {
+    grid-template-columns: 1fr;
+  }
+}
